@@ -1,0 +1,622 @@
+import { Notes, Appear, Image } from 'mdx-deck'
+import { prism } from 'mdx-deck/themes'
+import { Flex } from 'rebass'
+import { theme } from './theme'
+import Layout from './components/Layout'
+
+import buttons from './images/buttons.png'
+import sketch from './images/sketch.png'
+import button from './images/button.png'
+import button2 from './images/button2.png'
+import button3 from './images/button3.png'
+import button4 from './images/button4.png'
+import button5 from './images/button5.png'
+import button6 from './images/button6.png'
+import button7 from './images/button7.png'
+import button8 from './images/button8.png'
+import interfaceInventory from './images/interface-inventory-template.png'
+import team1 from './images/waterfall-1.png'
+import team2 from './images/waterfall-2.png'
+import basement from './images/epic_service_page.jpg'
+import styled from './images/styled-components.png'
+import css from './images/css.png'
+import cssButton from './images/css-button.png'
+import cssGridItem from './images/css-grid-item.png'
+import storybook from './images/storybook-hero-video-optimized.mp4'
+import ant from './images/ant1.png'
+import input from './images/input.png'
+import input1 from './images/input1.png'
+import inputfocus from './images/inputfocus.png'
+import access from './images/access.png'
+import waccess from './images/waccess.png'
+import inputc1 from './images/inputc1.png'
+import inputc from './images/inputc.png'
+import inputnoerror from './images/inputnoerror.png'
+import header from './images/header.png'
+import giphy from './images/giphy.gif'
+import herosectionwearepiksl from './images/hero-section-wearepiksl.png'
+import herosectionwearepiksl1 from './images/hero-section-wearepiksl1.png'
+import herosectionwearepiksl2 from './images/hero-section-wearepiksl2.png'
+import herosectionwearepiksl3 from './images/hero-section-wearepiksl3.png'
+import cssframework from './images/pattern-lab-2-image-16-large-opt.png'
+import storefront from './images/workshop-storefront.png'
+
+export const themes = [ prism, theme ]
+
+# How to build a design system
+### Miha Sedej
+
+---
+
+# Buzzword?
+
+---
+
+<ul>
+  <li>Why</li>
+  <Appear>
+    <li>What</li>
+    <li>How</li>
+  </Appear>
+</ul>
+
+---
+
+# Why?
+
+---
+
+<img src={buttons} style={{width: '80%'}} />
+
+<Notes>
+
+- Fell the pain?
+- Inconsistency
+- A lot of work
+- Time
+- Energy (UX, design, frontend, QA)
+- Technical debt and design debt
+- Bad UX
+
+</Notes>
+
+---
+
+<img src={giphy} style={{width: '50%'}} />
+
+---
+
+# A design system is the story of how your organization designs and builds digital products
+### Brad Frost
+
+<Notes>
+- it isnt just about designers, its about how your organization designs and builds digital products
+</Notes>
+
+---
+
+<img src={sketch} style={{width: '80%'}} />
+
+---
+
+## Design system != Sketch / Figma files
+
+---
+
+## the heart and soul of a successful design system is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications
+
+---
+
+<Layout color="#333333">
+  <Flex justifyContent="center" alignItems="center" height="100vh">
+    <img src={button} style={{width: '80%'}} />
+  </Flex>
+</Layout>
+
+<Notes>
+
+- Contained Buttons
+
+</Notes>
+
+---
+
+<Layout color="#333333">
+  <Flex justifyContent="center" alignItems="center" height="100vh">
+    <img src={button2} style={{width: '80%'}} />
+  </Flex>
+</Layout>
+
+<Notes>
+
+- Text Buttons
+
+</Notes>
+
+---
+
+<Layout color="#333333">
+  <Flex justifyContent="center" alignItems="center" height="100vh">
+    <img src={button3} style={{width: '80%'}} />
+  </Flex>
+</Layout>
+
+<Notes>
+
+- Outlined Buttons
+
+</Notes>
+
+---
+
+<Layout color="#333333">
+  <Flex justifyContent="center" alignItems="center" height="100vh">
+    <img src={button4} style={{width: '80%'}} />
+  </Flex>
+</Layout>
+
+<Notes>
+
+- Grouped Buttons
+
+</Notes>
+
+---
+
+<Layout color="#333333">
+  <Flex justifyContent="center" alignItems="center" height="100vh">
+    <img src={button5} style={{width: '40%'}} />
+  </Flex>
+</Layout>
+
+<Notes>
+
+- Floating Action Buttons
+
+</Notes>
+
+---
+
+<Layout color="#333333">
+  <Flex justifyContent="center" alignItems="center" height="100vh">
+    <img src={button6} style={{width: '30%'}} />
+  </Flex>
+</Layout>
+
+<Notes>
+
+- Split Button
+
+</Notes>
+
+---
+
+<Layout color="#333333">
+  <Flex justifyContent="center" alignItems="center" height="100vh">
+    <img src={button7} style={{width: '80%'}} />
+  </Flex>
+</Layout>
+
+<Notes>
+
+- Icon with label Button
+
+</Notes>
+
+---
+
+<Layout color="#333333">
+  <Flex justifyContent="center" alignItems="center" height="100vh">
+    <img src={button8} style={{width: '50%'}} />
+  </Flex>
+</Layout>
+
+---
+
+# A design system isn't only a collection of the assets and components
+
+---
+
+<ul>
+  <li>Style guides</li>
+
+  <Appear>
+    <li>Design tokens</li>
+    <li>Communication</li>
+    <li>Documentation</li>
+    <li>Demo site</li>
+  </Appear>
+</ul>
+
+<Notes>
+
+- Style guides: Colors, Typography, shadows, border radius, layout spacing, navigation, iconography, motion, interactive
+- Design tokens
+- Confirmations: date formats, price formats, empty states, loading states, help & feedback, imagery, offline states, writing
+- Documentation
+- Demo site
+
+</Notes>
+
+---
+
+# Benefits
+
+--- 
+
+<ul>
+  <li>Reduce technical debt</li>
+  <Appear>
+    <li>Consistency</li>
+    <li>Cross-platform UI</li>
+    <li>Efficiency</li>
+    <li>Quality</li>
+    <li>Scalability</li>
+    <li>Maintainability</li>
+    <li>Change process</li>
+    <li>Clear standards</li>
+    <li>Accessibility</li>
+    <li>Single source of truth</li>
+  </Appear>
+</ul>
+
+<Notes>
+
+- Consistency
+- Cross-platform UI
+- Efficiency
+- Quality
+- Scalability
+- Maintainability
+- Change process
+- Clear standards
+- Accessibility
+- Single source of truth
+- Efficiency: faster production, higher quality production, reduce QA effots
+- Quality: more time for UX...
+- Scalability: potential adopt new technologies faster, create more apps
+
+</Notes>
+
+---
+
+# Define goals
+
+---
+
+# New or existing project?
+
+--- 
+
+# Design audit
+
+<Notes>
+
+- Make screenshots
+- Global elements
+- Navigation
+- Image types
+- Icons
+- Forms
+- Buttons
+- Headings
+- Blocks
+- Lists
+- Interactive components
+- Media
+- Third-party components
+- Advertising
+- Colors
+- Animation
+
+</Notes>
+
+---
+
+# Pitch
+
+<Notes>
+
+- consistency and cohesion
+- speed up your team’s productivity
+- establish a more collaborative workflow
+- establish a shared vocabulary
+- provide helpful documentation
+- make testing easier
+- serve as a future-friendly foundation
+- Do you like saving time and money? Yes or no?
+
+</Notes>
+
+--- 
+
+# Meeting
+
+<Notes>
+
+- Team: UX designers, visual designers, front-end developers, back-end developers, copywriters, content strategists, project managers, business owners, QA other stakeholders
+- Make screenshots: Global elements, Navigation, Image types, Icons, Forms, Buttons, Headings, Blocks, Lists, Interactive components, Media, Third-party components, Advertising, Colors, Animation
+- Crack open your project. Get your screenshot fingers ready.
+- Set up a blank template
+
+</Notes>
+
+--- 
+
+<img src={interfaceInventory} style={{width: '70%'}} />
+
+<Notes>
+
+- Start screenshotting.
+- Categorize screenshots
+- Benefits
+- Gets organizational buy-in
+- Establishes a scope of work
+- Lays the groundwork to a sound interface design system
+
+</Notes>
+
+---
+
+# Present findings
+
+---
+
+# Regroup and establish next steps
+
+<Notes>
+
+- Which patterns should stay, which should go, and which can be merged together?
+- What pattern names should we settle on?
+- What are the next steps to translate the interface inventory into a living pattern library?
+
+</Notes>
+
+---
+
+# Define style guides, vocalbury
+
+---
+
+<img src={ant} style={{width: '50%'}} />
+
+---
+
+# Redefine teams
+
+<Notes>
+
+- Open-source and allow contributing
+
+</Notes>
+
+---
+
+<img src={team1} style={{width: '70%'}} />
+
+---
+
+<img src={team2} style={{width: '70%'}} />
+
+---
+
+# Collaboration is key
+
+---
+
+<img src={basement} style={{width: '70%'}} />
+
+---
+
+# it is a product
+
+---
+
+# Make CSS framework
+
+---
+
+<img src={styled} style={{width: '50%'}} />
+
+<Notes>
+
+- Different opinios and approaches
+
+</Notes>
+
+---
+
+<img src={cssframework} style={{width: '70%'}} />
+
+---
+
+<img src={storefront} style={{width: '70%'}} />
+
+---
+
+# World is bigger than React or Vue
+
+<Notes>
+
+- Make it modular: The design system is modular in every way, which very much applies to the way CSS is written. There should be clear separation between components.
+- Legibility is key: Developers should be able to understand CSS code at a glance and understand the purpose of any given selector.
+- Clarity trumps succinctness: The design system may sometimes seem verbose, but it delivers clarity and reslience in exchange. Keeping CSS legible and scalable means sacrificing a shorter syntax.
+- Keep things flat: Long selector strings should be avoided wherever possible in order to keep CSS as DOM-independent and modular as possible.
+
+</Notes>
+
+---
+
+<img src={css} style={{width: '50%'}} />
+
+---
+
+<img src={cssButton} style={{width: '50%'}} />
+
+---
+
+<img src={cssGridItem} style={{width: '50%'}} />
+
+--- 
+
+# Documentation
+
+--- 
+
+<video autoplay muted loop playsinline style={{width: '70%'}}><source src={storybook} type="video/mp4" /></video>
+
+---
+
+# JS framework
+
+---
+
+<ul>
+  <li>Performance</li>
+  <Appear>
+    <li>Accessibility</li>
+    <li>Good practices</li>
+  </Appear>
+</ul>
+
+<Notes>
+
+- Accessibility
+- Good practices
+
+</Notes>
+
+---
+
+<img src={input} style={{width: '50%'}} />
+
+---
+
+<img src={inputnoerror} style={{width: '50%'}} />
+
+---
+
+<img src={inputc1} style={{width: '50%'}} />
+
+---
+
+<img src={input1} style={{width: '50%'}} />
+
+---
+
+<img src={waccess} style={{width: '50%'}} />
+
+---
+
+<img src={access} style={{width: '50%'}} />
+
+---
+
+<img src={inputc} style={{width: '50%'}} />
+
+---
+
+<img src={inputfocus} style={{width: '50%'}} />
+
+---
+
+# Open or locked components
+
+---
+
+<img src={herosectionwearepiksl} style={{width: '70%'}} />
+
+---
+
+<img src={herosectionwearepiksl1} style={{width: '70%'}} />
+
+---
+<img src={herosectionwearepiksl2} style={{width: '70%'}} />
+
+---
+
+<img src={herosectionwearepiksl3} style={{width: '70%'}} />
+
+---
+
+<img src={header} style={{width: '40%'}} />
+
+---
+
+# Deploy
+
+<ul>
+  <li>Lerna</li>
+  <Appear>
+    <li>Semantic Versioning</li>
+    <li>Git Hooks</li>
+    <li>GitHub Actions</li>
+    <li>Netlify</li>
+  </Appear>
+</ul>
+
+<Notes>
+
+- Lerna
+- Semantic Versioning
+- Git Hooks
+- GitHub Actions
+- Netlify
+
+</Notes>
+
+---
+
+# Recap
+
+<ul>
+  <li>Design system is about productivity</li>
+  <Appear>
+    <li>The world is bigger than React / Vue</li>
+    <li>Design system is a dependency</li>
+    <li>Collaboration is key</li>
+    <li>Ask if design system is great</li>
+  </Appear>
+</ul>
+
+<Notes>
+
+- Design system is about productivity
+- The world is bigger than React / Vue
+- Design system is a dependency
+- Collaboration is key
+- Ask if design system is great
+
+</Notes>
+
+---
+
+# KPIs
+
+<ul>
+  <li>Speed</li>
+  <Appear>
+    <li>Quality</li>
+    <li>Easy of contibution</li>
+  </Appear>
+</ul>
+
+<Notes>
+
+- Speed
+- Quality
+- Easy of contibution
+
+</Notes>
+
+---
+
+howtodesignsystem.com
+
+---
+
+# Questions?
+
+---
+
+bitstamp.talentlyft.com

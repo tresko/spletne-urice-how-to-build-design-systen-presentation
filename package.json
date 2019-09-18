@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "spletne-urice-how-to-build-design-system",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "help": "mdx-deck"
+  },
+  "devDependencies": {
+    "gatsby": "2.14.7",
+    "mdx-deck": "^3.0.11"
+  },
+  "dependencies": {
+    "rebass": "^4.0.5"
+  }
+}

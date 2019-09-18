@@ -1,0 +1,116 @@
+intro
+    - i am front-end engineer
+
+problems
+    - is it hype
+    - somebody needs to do it
+    - design inconsistency
+
+what
+    - design system is not sketch or figma files
+    - its components
+    - button example
+    - what is design system
+    - benefits
+        - reduce technical debt
+        - faster production
+        - higher quality production
+        - reduce QA effots
+        - potential adopt new technologies faster
+        - useful reference
+        - future friendly foundation
+
+how
+    - new or old project
+        - old project
+            - make screenshoots
+            - pitch
+                consistency and cohesion,
+                speed up your team’s productivity,
+                establish a more collaborative workflow,
+                establish a shared vocabulary,
+                provide helpful documentation,
+                make testing easier,
+                serve as a future-friendly foundation. 
+                Do you like saving time and money? Yes or no?
+            - audit designs
+                - make meeting (30 and 90 minutes)
+                    - invite:
+                        UX designers,
+                        visual designers,
+                        front-end developers,
+                        back-end developers,
+                        copywriters,
+                        content strategists,
+                        project managers,
+                        business owners,
+                        QA
+                        other stakeholders
+                    - make screenshots
+                        Global elements
+                        Navigation
+                        Image types
+                        Icons
+                        Forms
+                        Buttons
+                        Headings
+                        Blocks
+                        Lists
+                        Interactive components
+                        Media
+                        Third-party components
+                        Advertising
+                        Colors
+                        Animation
+                - present findings
+                - regroup and establish next steps
+        
+    - define style guides
+    - shared vocabulary,
+    - redefine teams
+    - collaboration is key
+    - style guides
+    - make designes
+    - tools in the basement
+    - it is a product
+
+implement:
+    - components and designes
+    - make CSS framework
+        - why
+            - react
+            - vue
+            - django
+            - the world is bigger than react / vue
+        - CSS arhitecture
+            - css style
+            - BEM
+        - make button CSS
+        - modular
+    - make CSS framework documentation
+        -gatsby
+    - make React/vue framework
+        - documentation
+        - typescript
+        - input component
+        - hero example
+        - better for back-end developers
+    - deploy
+    - versioning
+
+recap
+    - design system is about productivity
+    - the world is bigger than react / vue
+    - design system is a dependency
+    - collaboration is key
+    - ask if design system is great
+
+    - KPIs:
+        - speed
+        - quality
+        - easy of contibution
+        - completeness
+
+outro
+    - course
+    - bitstamp
