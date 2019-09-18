@@ -7,11 +7,9 @@
     "build": "mdx-deck build deck.mdx",
     "help": "mdx-deck"
   },
-  "devDependencies": {
+  "dependencies": {
+    "rebass": "^4.0.5",
     "gatsby": "2.14.7",
     "mdx-deck": "^3.0.11"
-  },
-  "dependencies": {
-    "rebass": "^4.0.5"
   }
 }
