@@ -1,6 +1,6 @@
-# How to build a design system presentation
+# How to build a design system - #101 spletne urice presentation
 
-This was generated with [mdx-deck][]'s `npm init deck` command.
+[Presentation link](https://5d820a9eb7c9089f48dfb78c--loving-edison-0a9c83.netlify.com/)
 
 ## Development
 
